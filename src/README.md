@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `dms`
+# Component: `dms-replication-task`
 
 This component provisions DMS replication tasks.
 

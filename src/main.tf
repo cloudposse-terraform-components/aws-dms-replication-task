@@ -1,6 +1,6 @@
 module "dms_replication_task" {
   source  = "cloudposse/dms/aws//modules/dms-replication-task"
-  version = "0.2.0"
+  version = "2.0.0"
 
   replication_instance_arn = module.dms_replication_instance.outputs.dms_replication_instance_arn
   source_endpoint_arn      = module.dms_endpoint_source.outputs.dms_endpoint_arn
